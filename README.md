@@ -1,11 +1,11 @@
-# Koopa (Web) Cruiser
+# Internet Explorer 3DS
 A basic homebrew web browser for the Nintendo 3DS
 
 # Features
-- View a preset page (char *url = "http://jsa.paperplane.io/index.html")
+- View a page
 - Save aforementioned page to a file
-- tl;dr nothing of use to you
 
 # Credits
 - jsa
 - josamilu (help with file downloading, some inspiration)
+- Eix (Testing/Inspiration)
