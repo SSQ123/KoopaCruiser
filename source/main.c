@@ -155,7 +155,7 @@ void downloadfile()
 {
     consoleSelect(&topScreen);
 
-		char *url2 = "http://mabel.nonm.co.uk/woop/download.php";
+		char *url2 = "http://google.com";
 		//char *url2 = url;
 
 		char *file_name;
@@ -190,7 +190,7 @@ int main()
 	consoleInit(GFX_BOTTOM, &bottomScreen);
 	consoleSelect(&topScreen);
 	/*printf("%s by %s\n", APPTITLE, APPAUTHOR);*/
-	printf("Koopa Cruiser by jsa\n");
+	printf("Koopa Cruiser by SSQ\n");
 	printf("Version: %s\n", VERSION);
 
 	//printf("--dev build--\n");
@@ -204,8 +204,9 @@ int main()
 	httpcInit();
 
 	//Change this to your own URL.
-	url = "http://mabel.nonm.co.uk/woop/view.php";
-
+	url = "http://www.google.com";
+	if (kDown & KEY_X){
+	scanf("URL of Site",%url);}
 	printf("Loading %s\n\n",url);
 	gfxFlushBuffers();
 
